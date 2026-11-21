@@ -100,3 +100,31 @@ hr, table, th, td { border-color: $border-color; }
 .page__footer a:hover { color: $gold; }
 
 ::selection { background: $gold; color: #1a1204; }
+
+/* Research cards: 2 x 2 grid, wider cards */
+.feature__wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  border-bottom: 0;
+  margin-bottom: 2em;
+
+  @media (min-width: 640px) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .feature__item {
+    float: none;
+    width: auto;
+    margin: 0;
+    font-size: 1em;
+    clear: none;
+
+    .archive__item {
+      height: 100%;
+      padding: 1.6em 1.8em;
+    }
+    .archive__item-body { padding: 0; }
+    .archive__item-title { margin-bottom: 0.5em; font-size: 1.25em; }
+  }
+}
