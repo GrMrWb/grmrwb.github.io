@@ -13,17 +13,17 @@ body {
 h1, h2, h3, h4, h5, h6,
 .page__title, .archive__item-title {
   font-family: $font;
-  color: #fff;
+  color: #dfe3ec;
   font-weight: 800;
   letter-spacing: -0.02em;
 }
 .page__title { font-size: 2.6em; line-height: 1.1; }
 .page__content h2 {
-  border-bottom: 1px solid $border-color;
+  border-bottom: 2px solid #34415f;
   padding-bottom: 0.3em;
   margin-top: 2em;
 }
-.page__content strong { color: #fff; }
+.page__content strong { color: #dfe3ec; }
 
 /* Masthead */
 .masthead {
@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6,
   font-weight: 600;
   letter-spacing: 0.01em;
 }
-.site-title { font-weight: 800; letter-spacing: -0.01em; color: #fff; }
+.site-title { font-weight: 800; letter-spacing: -0.01em; color: #dfe3ec; }
 .greedy-nav { background: transparent; }
 .greedy-nav .visible-links a:before { background: $gold; }
 .greedy-nav .hidden-links { background: $code-background-color; border-color: $border-color; }
@@ -55,10 +55,10 @@ h1, h2, h3, h4, h5, h6,
   border-radius: 8px;
   padding: 0.75em 1.5em;
   background: transparent;
-  color: #fff;
+  color: #dfe3ec;
   border: 1px solid #2a3550;
   transition: border-color .15s, background .15s;
-  &:hover { background: #0d1a33; border-color: $gold; color: #fff; }
+  &:hover { background: #0d1a33; border-color: $gold; color: #dfe3ec; }
 }
 .btn--primary {
   background: $gold;
@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6,
   border-color: $gold;
   &:hover { background: lighten($gold, 6%); color: #1a1204; border-color: lighten($gold, 6%); }
 }
-.btn--info { background: transparent; color: #fff; border-color: #2a3550; }
+.btn--info { background: transparent; color: #dfe3ec; border-color: #2a3550; }
 
 /* Cards (research interests) */
 .feature__item .archive__item {
@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6,
 
 /* Sidebar / author card */
 .author__avatar img { border-radius: 50%; border: 2px solid $gold; }
-.author__name { color: #fff; font-weight: 800; }
+.author__name { color: #dfe3ec; font-weight: 800; }
 .author__bio, .author__content { color: $text-color; }
 .sidebar .author__urls-wrapper .btn { width: auto; }
 
@@ -96,7 +96,7 @@ hr, table, th, td { border-color: $border-color; }
   border-top: 1px solid $border-color;
   color: $text-color;
 }
-.page__footer a { color: #fff; }
+.page__footer a { color: #dfe3ec; }
 .page__footer a:hover { color: $gold; }
 
 ::selection { background: $gold; color: #1a1204; }
