@@ -1,0 +1,31 @@
+/* ==========================================================================
+   Navy & gold skin
+   ========================================================================== */
+
+/* Colors */
+$background-color: #030a1a !default;
+$text-color: #c4cad6 !default;
+$gold: #d9b26b !default;
+$primary-color: $gold !default;
+$border-color: #162036 !default;
+$code-background-color: #0a1428 !default;
+$code-background-color-dark: #0d1a33 !default;
+$form-background-color: #0a1428 !default;
+$footer-background-color: #020712 !default;
+$link-color: #ffffff !default;
+$link-color-hover: $gold !default;
+$link-color-visited: #e6e9f0 !default;
+$masthead-link-color: #c4cad6 !default;
+$masthead-link-color-hover: $gold !default;
+$navicon-link-color-hover: $gold !default;
+
+.author__urls.social-icons i,
+.author__urls.social-icons .svg-inline--fa,
+.page__footer-follow .social-icons i,
+.page__footer-follow .social-icons .svg-inline--fa {
+  color: inherit;
+}
+
+.ais-search-box .ais-search-box--input {
+  background-color: $form-background-color;
+}
