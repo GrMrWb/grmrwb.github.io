@@ -115,7 +115,7 @@ analytics:
 # Site Author
 author:
   name             : "Marios Aristodemou"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/avatar.jpg"
   bio              : "Postdoctoral Research Associate, University of York"
   location         : "York, UK"
   email            :
