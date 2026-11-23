@@ -130,3 +130,21 @@ hr, table, th, td { border-color: $border-color; }
     .archive__item-title { margin-bottom: 0.5em; font-size: 1.25em; }
   }
 }
+
+/* Larger avatar */
+.author__avatar {
+  width: 64px;
+  height: 64px;
+
+  @media (min-width: 64em) {
+    width: auto;
+    height: auto;
+  }
+
+  img {
+    width: 100%;
+    max-width: 200px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+}
